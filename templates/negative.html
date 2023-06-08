@@ -35,12 +35,24 @@
               class="relative px-7 py-8 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6"
             >
               <div class="space-y-4 w-full flex flex-col items-center">
-                <div id="result">
+                <img
+                  src="../static/img/triangle-exclamation-solid.svg"
+                  class="w-[50px]"
+                />
+                <div
+                  id="result"
+                  class="flex w-full justify-center items-center gap-[5px]"
+                >
                   <strong style="color: red">{{result}}</strong>
+                  <img
+                    src="../static/img/face-frown-regular.svg"
+                    style="color: red"
+                    class="w-6 h-6"
+                  />
                 </div>
                 <a
                   href="/"
-                  class="block text-purple-800 hover:text-indigo-400 transition duration-200"
+                  class="block font-bold text-purple-800 hover:text-indigo-400 transition duration-200"
                 >
                   Back →
                 </a>
