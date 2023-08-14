@@ -57,9 +57,9 @@ def predict():
 
     # Check the output values and retrieve the result with HTML tags
     if output == 1:
-        return render_template('negative.html', result='The patient is likely to have a stroke!')
+        return render_template('negative.html', result='Pasien memiliki kemungkinan terkena stroke!')
     else:
-        return render_template('positive.html', result='The patient is not likely to have a stroke!')
+        return render_template('positive.html', result='Pasien tidak memiliki kemungkinan terkena stroke!')
 
 
 # Run the application
